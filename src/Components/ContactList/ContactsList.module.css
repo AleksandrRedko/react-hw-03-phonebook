@@ -1,0 +1,18 @@
+.List {
+  width: 400px;
+}
+.Item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  list-style: none;
+  margin-left: 16px;
+}
+.Item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.Button {
+  padding: 5px 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
